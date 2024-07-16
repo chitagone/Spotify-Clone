@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from './components/Sidebar'
+import Player from './context/Player'
 
 const App = () => {
   return (
@@ -9,8 +10,9 @@ const App = () => {
 
         <Sidebar/>
 
-
       </div>
+
+      <Player/>
 
     </div>
   )
